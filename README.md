@@ -8,14 +8,13 @@ Here's the project's approach:
 1. **Data Preprocessing:**
    - Begin by loading and cleaning your dataset. Handle any missing values and outliers appropriately.
    - Convert categorical variables (like occupation, gender, education, etc.) into numerical representations (one-hot encoding, label encoding, etc.) that machine learning algorithms can understand.
-   - Be cautious about how you handle the race variable. Oversimplification or generalization of racial categories can reinforce stereotypes and biases.
 
 2. **Feature Selection/Engineering:**
    - Analyze the relevance of each feature in predicting salary. Feature selection methods like correlation analysis or feature importance from algorithms can help.
    - Consider adding interaction terms if you believe certain combinations of variables might have a significant impact on salary predictions.
 
 3. **Model Selection:**
-   - Choose appropriate machine learning algorithms for regression tasks, such as Linear Regression, Random Forest, Gradient Boosting, etc.
+   - Choose appropriate machine learning algorithms for regression tasks, such as DecisionTreeRegressor, Linear Regression, Random Forest, Gradient Boosting, etc.
    - Split your dataset into training and testing sets to evaluate your model's performance.
 
 4. **Model Training and Evaluation:**
